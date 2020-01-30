@@ -34,7 +34,6 @@ footer {
 	background-color: navy;
 	color: white;
 	padding: 4px;
-	margin-top: 500px;
 	text-align: center;
 }
 
@@ -74,6 +73,48 @@ img.contentImg {
 	border: 14px solid navy;
 	border-radius: 5px;
 	margin-top: 30px;
+}
+
+
+
+div.caption {
+	background-color: lightgray;
+	width: 60%;
+	padding: 8px;
+	margin-top: 8px;
+	border: 5px solid darkslategray;
+	border-radius: 5px;
+}
+
+div.left-menu {
+	display: flex;
+	width: 15%;
+	height: 1000px;
+	background-color: lightgray;
+	border-right: 5px solid navy;
+	border-bottom: 5px solid navy;
+}
+
+div.news-container {
+	display: flex;
+	justify-content: left;
+}
+
+div.news-content {
+	display: flex;
+	width: 60%;
+	align-items: center;
+	margin-left: 160px;
+	margin-top: 100px;
+	flex-direction: column;
+}
+img.news-image {
+	width: 100%;
+	display: flex;
+	margin: 15px;
+}
+h1.news-header {
+	text-align: center;
 }
 
 div.caption {
@@ -120,12 +161,14 @@ div.scores-game {
 img.scores-img {
 	width: 48px;
 	height: 48px;
+	margin-right: 8px;
+	margin-top: -8px;
 }
 
 p.scores-team {
 	font-weight: bolder;
-	font-size: 24px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif
+	font-size: 23px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 div.scores-team {
