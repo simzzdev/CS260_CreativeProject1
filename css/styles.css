@@ -244,3 +244,139 @@ p.photo-credit {
 	text-align: left;
 	width:80%;
 }
+
+
+.navbar-toggler-icon {
+	color: white !important;
+	border-color: white !important;
+
+}
+.standings-page {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.standings-left-container {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+.standings-right-container {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+.standings-header {
+	padding: 25px;
+}
+.standings-team-container {
+	border: 2px solid black;
+	margin: 3%;
+}
+.standings-team-container2 {
+	border: 2px solid black;
+	margin: 3%;
+}
+.standings-teams {
+	display: flex;
+	flex-direction: row;
+}
+.standings-logos {
+	width: 15%;
+	height: 15%;
+}
+.teams-text {
+	margin: 1.5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-weight: bold;
+	font-size: 14px;
+}
+.teams-plain-text {
+	margin-left: -.5%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	font-size: 14px;
+}
+.vl {
+	border-left: 2px solid black;
+	height: 75px;
+}
+.teams-number {
+	font-size: 20px;
+	margin: 1.5%;
+	margin-top: 4%;
+	margin-bottom: 5%;
+	font-weight: bold;
+}
+.standings-citation {
+	font-size: 8px;
+	margin: 5px;
+}
+@media only screen and (max-width: 1000px) {
+	div.scores-content {
+		width: 96%;
+	}
+}
+@media only screen and (max-width: 400px) {
+	div.left-menu{
+		display: none;
+	}
+	h1.breaking-news{
+		font-size: 20px;
+	}
+	div.news-content {
+		margin-left: 0;
+		width: 80%;
+		flex-direction: column;
+		margin-top: 50px;
+	}
+	div.news-container{
+		display: flex;
+		justify-content: center;
+	}
+	.footerP2{
+		font-size: 10px;
+		margin: 0 20px 10px 10px;
+	}
+	.news-header {
+		font-size: 20px;
+	}
+	.image-description {
+		font-size: 8px;
+	}
+	.standings-container {
+		display: flex;
+		flex-direction: column;
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		justify-content: space-between;
+	}
+	}
+	.teams-text {
+		font-size: 14px;
+	}
+	.teams-plain-text {
+		font-size: 14px;
+	}
+	.standings-left-container {
+		width: 100%;
+	}
+	.standings-right-container {
+		width: 100%;
+	}
+	.standings-teams {
+		padding: 10px;
+	}
+	.standings-team-container {
+		margin: unset;
+	}
+	.standings-team-container2 {
+		border-top: unset;
+		margin: unset;
+	}
+	.standings-header {
+		text-align: center;
+	}
+}
