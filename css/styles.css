@@ -346,7 +346,7 @@ p.photo-credit {
 		font-size: 8px;
 	}
 	.standings-container {
-		display: flex;
+		display: flex; 
 		flex-direction: column;
 		display: flex;
 		flex-direction: row;
